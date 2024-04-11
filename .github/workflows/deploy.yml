@@ -27,5 +27,4 @@ jobs:
         tags: abhaymishra129/cicd:latest  # Replace with your Docker Hub username and repository
 
     - name: Verify Pushed Image
-      run: docker pull abhaymishra129/cicd
-:latest  # Replace with your Docker Hub username and repository
+      run: docker pull abhaymishra129/cicd:latest  # Replace with your Docker Hub username and repository
